@@ -292,9 +292,9 @@ function Showcase({ prefersReduced }: { prefersReduced: boolean }) {
 function HowItWorks({ prefersReduced }: { prefersReduced: boolean }) {
   const { ref, isInView } = useSectionReveal();
   const steps = [
-    { title: "Set your goal", body: "e.g., Crack SDE interviews in 8 weeks. Pick level + time." },
-    { title: "Generate roadmap", body: "AI creates weekly themes and tasks. Adjust to taste." },
-    { title: "Schedule with one click", body: "Push tasks to calendar and start executing." },
+    { title: "Set your goal", body: "Add your first daily task or habit." },
+    { title: "Keep track of your day", body: "Write Daily Journal and hourly description of what you did" },
+    { title: "Identify Patterns", body: "Get AI insights to improve every week,monthly of what you did and where did you lack and how to be better" },
   ];
   return (
     <Section id="how" className="bg-gradient-to-b from-transparent to-[#0c0c12] py-20">
@@ -327,7 +327,7 @@ function CTA() {
           <div className="grid md:grid-cols-12 gap-8 items-center relative z-10">
             <div className="md:col-span-7">
               <h3 className="text-3xl md:text-4xl font-extrabold tracking-tight bg-gradient-to-r from-indigo-400 via-fuchsia-400 to-cyan-400 bg-clip-text text-transparent">Make the next 21 days count</h3>
-              <p className="mt-3 text-white/85">Start free. Build one habit. Push an AI plan into your calendar. See the difference in a week.</p>
+              <p className="mt-3 text-white/85">Start free. Build one habit. Keep track of it . See the difference in a week.</p>
             </div>
             <div className="md:col-span-5 flex md:justify-end items-center gap-3">
               <a href="/signup" className="px-5 py-3 rounded-2xl bg-white text-black text-sm hover:scale-[1.02] transition shadow-[0_10px_40px_-12px_rgba(255,255,255,0.6)]">Create account</a>
