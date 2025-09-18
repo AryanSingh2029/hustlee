@@ -58,7 +58,7 @@ function Aurora() {
         className="pointer-events-none absolute -top-40 -left-40 w-[36rem] h-[36rem] rounded-full blur-3xl opacity-25 bg-gradient-to-tr from-indigo-600 via-fuchsia-500 to-cyan-400"
         animate={prefersReduced ? {} : { y: [0, -18, 0], x: [0, 14, 0] }}
         transition={{ duration: 12, repeat: Infinity, ease: "easeInOut" }}
-      />as React.ReactElement
+      />
       <motion.div
         aria-hidden ="true"  
         className="pointer-events-none absolute -bottom-40 -right-40 w-[30rem] h-[30rem] rounded-full blur-3xl opacity-20 bg-gradient-to-tr from-pink-500 via-orange-400 to-yellow-300"
